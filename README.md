@@ -3,7 +3,7 @@
 <p align="center">A Liquid effect button built using svg and vanila JS, <a href="https://www.npmjs.com/package/liquid-button">NPM Repo</a></p>
 
 <p align="center">
-    <a href="https://twitter.com/intent/tweet?text=A Liquid effect button built uisng svg and vanila JS.&url=https://github.com/anupamhaldkar/liquid-button&hashtags=javascript,opensource,js,webdev,developers,npm,svg,vanillaJS"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="30"/></a>
+    <a href="https://twitter.com/intent/tweet?text=A Liquid effect button built uisng svg and vanila JS.&url=https://github.com/anupamhaldkar/liquid-button&hashtags=javascript,opensource,js,webdev,developers,npm,svg,vanillaJS"><img src="https://randojs.com/images/tweetShield.svg" alt="Tweet" height="30"/></a>
 </p><br/><br/>
 
 Steps: -
