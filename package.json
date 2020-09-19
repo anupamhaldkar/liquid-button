@@ -1,0 +1,44 @@
+{
+  "name": "liquid-button",
+  "version": "0.1.7",
+  "private": false,
+  "description": "A Liquid button built with vanila JS and svg",
+   "homepage": "https://github.com/anupamhaldkar/liquid-button",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/anupamhaldkar/liquid-button.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "liquid-button",
+    "fancy button",
+    "button",
+    "liquid"
+],
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "^3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
