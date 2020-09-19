@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+<p align="center"><a href="https://github.com/anupamhaldkar/liquid-button"><img src="https://user-images.githubusercontent.com/48323127/93660421-56ece880-fa6c-11ea-82f2-49d39d288c1f.gif" alt="Liquid button preview" height="150"/></a></p>
+<h1 align="center">Liquid Button</h1>
+<p align="center">A Liquid effect button built using svg and vanila JS, <a href="https://www.npmjs.com/package/liquid-button">NPM Repo</a></p>
 
-You can use the [editor on GitHub](https://github.com/anupamhaldkar/liquid-button/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<p align="center">
+    <a href="https://twitter.com/intent/tweet?text=A Liquid effect button built uisng svg and vanila JS.&url=https://github.com/anupamhaldkar/liquid-button&hashtags=javascript,opensource,js,webdev,developers,npm,svg,vanillaJS"><img src="https://randojs.com/images/tweetShield.svg" alt="Tweet" height="30"/></a>
+</p><br/><br/>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Steps: -
+1. - npm install liquid-button
+2. - Then Import liquid-button in your react project
 
-### Markdown
+    `import LiquidButton from 'LiquidButton/src/LiquidButton'` if generate error then copy the LiquidButton.js file from the node_moudle folder and paste inside your src folder and import as `import LiquidButton from './LiquidButton' `
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+3. - use ` <LiquidButton class="your-class-name-here" name="FirstButton" background="black" firstcolor="#1e88e5" secondcolor="yellow" /> `
+     -------- put your desired colors -----
 
-```markdown
-Syntax highlighted code block
+     #### You should have different class name each time you are using the component like -
+     `ReactDOM.render(<div>`
+     `<LiquidButton class="liquid-button" name="FirstButton" background="black" firstcolor="#1e88e5" secondcolor="yellow" />`
+     `<LiquidButton class="liquid-button2" name="FirstButton" background="black" firstcolor="#1e88e5" secondcolor="yellow" />`
+     `</div>, document.getElementById('root'));`
 
-# Header 1
-## Header 2
-### Header 3
+     see the above example it will show 2 buttons if you want to use more than your class name should be different each time.
 
-- Bulleted
-- List
+     Now you can use more than one liquid-buttons on same page.
 
-1. Numbered
-2. List
+     Feel free to contribute on github - ( https://github.com/anupamhaldkar/liquid-button )
 
-**Bold** and _Italic_ and `Code` text
+## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anupamhaldkar/liquid-button/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##### License: MIT
