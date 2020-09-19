@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/Rajesh-Royal/liquid-button"><img src="screenshot/liquid button.gif" alt="Liquid button preview" height="150"/></a></p>
+<p align="center"><a href="https://github.com/Rajesh-Royal/liquid-button"><img src="https://user-images.githubusercontent.com/48323127/93660421-56ece880-fa6c-11ea-82f2-49d39d288c1f.gif" alt="Liquid button preview" height="150"/></a></p>
 <h1 align="center">Liquid Button</h1>
 <p align="center">A Liquid effect button built using svg and vanila JS, <a href="https://www.npmjs.com/package/liquid-button">NPM Repo</a></p>
 
